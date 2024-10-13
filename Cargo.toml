@@ -8,7 +8,8 @@ repository = "https://github.com/liuluopeng/zuoti_initer"
 homepage = "https://github.com/liuluopeng/zuoti_initer"
 keywords = ["cli"]
 categories = ["command-line-utilities"]
-
+license = "Apache-2.0"
+description = "rust做题的初始化模板, 支持函数风格,输入输出风格"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
