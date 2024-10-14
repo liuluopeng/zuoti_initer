@@ -12,6 +12,28 @@
 - `lib.rs` 需要包含下列目录:  `leetcode` `luogu` `atcoder`
 
 
+你的做题项目需要这样:  
+```
+├── src
+│   ├── atcoder
+│   │   └── mod.rs
+│   ├── leetcode
+│   │   ├── leetcode_1.rs
+│   │   └── mod.rs
+│   ├── luogu
+│   │   ├── luogu_P2212.rs
+│   │   └── mod.rs
+|   |                    
+│   ├── lib.rs
+│   ├── main.rs
+├── Cargo.lock
+├── Cargo.toml
+```
+
+
+## 安装这个小工具:
+
+`cargo install zuoti_initer`
 
 ## 使用: 
 
